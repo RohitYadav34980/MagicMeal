@@ -172,3 +172,53 @@
 .suggested-recipe-container ul li, .suggested-recipe-container ol li {
     margin: 2%;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .input-group {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .ingredient-input,
+  .add-btn {
+    width: 100%;
+  }
+
+  .recipe-btn {
+    width: 100%;
+  }
+}
+
+/* Small devices */
+@media (max-width: 480px) {
+  .app {
+    padding: 0.8rem;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .ingredient-list li {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .remove-btn {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #fee2e2;
+    border-radius: 4px;
+  }
+}
