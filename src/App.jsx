@@ -3,6 +3,7 @@ import ChefNavbar from './components/ChefNavbar';
 import IngredientForm from './components/IngredientForm';
 import IngredientList from './components/IngredientList';
 import Recipe from './components/Recipe';
+import { Analytics } from '@vercel/analytics/react';
 import { getRecipeFromMistral } from './ai.js';
 import './App.css';
 
@@ -64,6 +65,7 @@ export default function App() {
         {recipe && <Recipe recipe={recipe} />}
 
       </main>
+      <Analytics />
     </div>
   );
 }
