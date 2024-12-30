@@ -8,7 +8,7 @@ export default function IngredientList({ ingredients, onRemoveIngredient }) {
                         <li key = {index}>
                             {ingredient}
                             {/* <button onClick={() => onRemoveIngredient(ingredient)}>×</button> */}
-                            <button class="deleteButton" onClick={() => onRemoveIngredient(ingredient)}>
+                            <button className="deleteButton" onClick={() => onRemoveIngredient(ingredient)}>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
