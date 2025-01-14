@@ -48,17 +48,17 @@
   
   .add-btn {
     padding: 0.8rem 1.5rem;
-    background-color: rgb(11, 56, 181);
+    background-color: #343a40;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
-    opacity: 100%;
+    opacity: 70%;
   }
   
   .add-btn:hover {
-    opacity: 70%;
+    opacity: 100%;
   }
   
   .error-message {
@@ -69,7 +69,7 @@
   
   /* Ingredient List */
   .ingredient-list {
-    background-color: #f8f9fa;
+    background-color: #e9ecef;
     padding: 1.5rem;
     border-radius: 12px;
     margin-bottom: 2rem;
@@ -90,7 +90,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.8rem;
-    background-color: white;
+    background-color: #ced4da;
     margin-bottom: 0.5rem;
     border-radius: 6px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
@@ -187,7 +187,7 @@
   .recipe-ready {
     text-align: center;
     padding: 1.5rem;
-    background-color: #d4edda;
+    background-color: #e9ecef;
     border-radius: 8px;
     color: #155724;
     display: flex;
@@ -241,12 +241,12 @@
 }
 
 .recipe-btn:hover {
-  background: linear-gradient(0deg,#6558f0,#1726ff);
-  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+  /* background: linear-gradient(0deg,#6558f0,#1726ff); */
+  /* box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
   inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
   0px 0px 0px 4px rgba(255, 255, 255, 0.2),
-  0px 0px 180px 0px #1726ff;
-  transform: translateY(-2px);
+  0px 0px 180px 0px #1726ff; */
+  /* transform: translateY(-2px); */
 }
 
 .recipe-btn:hover .text {
@@ -278,7 +278,7 @@
   }
   
 .suggested-recipe-container {
-    background-color: #f8f9fa;
+    background-color: #e9ecef;
     padding: 1.5rem;
     border-radius: 12px;
     margin-top: 2rem;
@@ -346,3 +346,21 @@
     border-radius: 4px;
   }
 }
+
+
+.recipe-ready {
+  background-color: #EFF4FF;
+  color: #1a1a2e;
+}
+.recipe-btn {
+  background-color: #212529;
+  color: #ffffff;
+}
+.recipe-btn:hover {
+  background-color: #212529;
+
+}
+.loading-icon circle {
+  stroke: #FFA726;
+}
+
