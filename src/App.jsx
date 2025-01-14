@@ -6,7 +6,7 @@ import Recipe from './components/Recipe';
 import { Analytics } from '@vercel/analytics/react';
 import { getRecipeFromMistral } from './ai.js';
 import './App.css';
-import Loader from './components/loader.jsx';
+import Loader from './components/Loader.jsx';
 
 console.log('getRecipeFromMistral loaded');
 
