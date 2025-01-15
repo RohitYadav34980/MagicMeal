@@ -17,6 +17,7 @@ export default function App() {
 
   const addIngredient = (ingredient) => {
     setIngredients([...ingredients, ingredient]);
+    setStatus("Generate Recipe");
   };
 
   const removeIngredient = (ingredientToRemove) => {
