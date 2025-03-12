@@ -59,6 +59,7 @@
   
   .add-btn:hover {
     opacity: 100%;
+    background-color: black;
   }
   
   .error-message {
